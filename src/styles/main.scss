@@ -5,6 +5,8 @@ body {
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
+	padding: 0 16px;
+	box-sizing: border-box;
 }
 main {
 	flex-grow: 1;
@@ -12,8 +14,9 @@ main {
 .showcase {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: center;
 	gap: 16px;
+	margin: 0 auto;
 }
 .goods-item {
 	width: 230px;
